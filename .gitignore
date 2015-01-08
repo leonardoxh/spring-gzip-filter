@@ -1,12 +1,40 @@
+# Other
 *.class
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
+
+# Maven
+target
+release.properties
+pom.xml.*
+
+# Gradle
+.gradle
+build
+
+# OSX
+.DS_Store
+
+# Ant
+MANIFEST.MF
+./*.jar
+build.num
+build
+
+# ADT
+.classpath
+.project
+.settings
+local.properties
+bin
+gen
+_layouts
+proguard.cfg
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
