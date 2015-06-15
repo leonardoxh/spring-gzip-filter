@@ -1,6 +1,10 @@
 # spring-gzip-filter
 Spring GZIP Filter
 
+Deprecated
+-----
+Spring 1.2.2+ has the compression enabled by default via <code>application.properties</code>
+
 This implementation provides a simple but powerful servlet filter to automatic adds GZIP support for your web requests, it's not 100% customizable now but on future I expect that.
 
 Gradle:
